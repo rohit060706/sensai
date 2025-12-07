@@ -469,7 +469,7 @@ export async function deleteCoverLetter(id) {
     const deleted = await db.coverLetter.delete({
       where: {
         id,
-        userId: user.id,
+        // userId: user.id,
       },
     });
 

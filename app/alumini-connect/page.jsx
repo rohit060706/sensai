@@ -1,7 +1,5 @@
 'use client';
 
-// // import { useEffect, useState } from 'react';
-// // import { getAlumniFilterOptions, getAlumniDetails } from '@/actions/alumni';
 import React from "react";
 import ClerkWrapper from "@/components/clerk/ClerkWrapper";
 import AlumniConnectClient from "@/components/alumni/AlumniConnectClient";
@@ -133,7 +131,6 @@ export default function AlumniConnectPage() {
 //     </div>
 //   );
 // }
-
 
 import { useEffect, useState } from 'react';
 import { getAlumniFilterOptions, getAlumniDetails } from '@/actions/alumni';

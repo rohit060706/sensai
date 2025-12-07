@@ -134,6 +134,8 @@ export default function AlumniConnectPage() {
 //   );
 // }
 
+'use client';
+
 import { useEffect, useState } from 'react';
 import { getAlumniFilterOptions, getAlumniDetails } from '@/actions/alumni';
 import {

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schema.inngest.com/config/v1.json",
+  "app_name": "AI Career Coach",
+  "root": "inngest",
+  "hooks": [
+    {
+      "event": "inngest/function.registered",
+      "request": {
+        "url": "/api/inngest"
+      }
+    }
+  ]
+}
